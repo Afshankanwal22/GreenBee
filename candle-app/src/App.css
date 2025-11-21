@@ -2,3 +2,17 @@
     font-family: 'Arial', sans-serif;
 
 }
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  display: inline-block;
+  animation: slide 15s linear infinite;
+}
+
