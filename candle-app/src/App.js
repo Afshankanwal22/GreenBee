@@ -5,6 +5,7 @@ import Silder from "./components/Silder";
 import Section1 from "./components/section1";
 import ProductPage from "./ProductPage";
 import FeaturedProducts from "./components/FeaturedProducts";
+import Seller from "./components/seller";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <Silder />
               <Section1 />
               <FeaturedProducts />
+              <seller />
             </div>
           }
         />
